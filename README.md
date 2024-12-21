@@ -5,6 +5,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+pnpm add @tanstack/react-query @tanstack/react-query-devtools axios
+
 npm run dev
 # or
 yarn dev
@@ -13,6 +15,18 @@ pnpm dev
 # or
 bun dev
 ```
+
+This is responsive phone catalog that:
+
+- Fetches data from the API using TanStack Query
+- Displays phones in a responsive grid
+- Shows loading and error states
+- Includes proper TypeScript types
+- Uses Tailwind CSS for styling
+- Implements proper data fetching with axios
+- Includes React Query DevTools for debugging
+
+The application will be available at http://localhost:3000.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
