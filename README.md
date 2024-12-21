@@ -5,7 +5,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-pnpm add @tanstack/react-query @tanstack/react-query-devtools axios
+pnpm add @tanstack/react-query @tanstack/react-query-devtools axios @radix-ui/react-dialog
+pnpm dlx shadcn-ui@latest add dialog
+pnpm add clsx tailwind-merge
+pnpm add @radix-ui/react-dialog lucide-react clsx tailwind-merge class-variance-authority tailwindcss-animate
 
 npm run dev
 # or
